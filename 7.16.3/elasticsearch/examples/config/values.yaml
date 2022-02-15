@@ -1,7 +1,8 @@
 ---
 
 clusterName: "config"
-replicas: 1
+replicas: 3
+minimumMasterNodes: 2
 
 extraEnvs:
   - name: ELASTIC_PASSWORD
